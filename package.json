@@ -1,0 +1,36 @@
+{
+  "name": "kickstart",
+  "version": "0.1.1",
+  "description": "Start application from scratch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mobilyte-meanstack.visualstudio.com/_git/KickStarterProject_Node"
+  },
+  "author": "Navish (Mobilyte)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bell": "^2.9.0",
+    "boom": "^3.2.2",
+    "dev": "^0.1.3",
+    "dotenv": "^5.0.0",
+    "good": "^5.1.2",
+    "good-console": "^4.1.0",
+    "hapi": "^16.6.2",
+    "hapi-auth-cookie": "^7.0.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "hapi-auth-jwt2": "^7.4.1",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^5.1.0",
+    "mongoose": "^5.0.4",
+    "nodemailer": "^4.4.2",
+    "underscore": "^1.8.3",
+    "vision": "^4.1.1"
+  }
+}
